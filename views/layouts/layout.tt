@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+<meta charset='utf-8'>
+<meta content='width=1000' name='viewport' />
+<link rel="shortcut icon" href="images/nyasocom.ico" type="image/vnd.microsoft.icon">
+<link rel='stylesheet' type='text/css' href='/css/bootstrap.css'>
+<script type='text/javascript' src='/js/cairo.js'></script>
+<script type='text/javascript' src='/js/time.js'></script>
+<noscript>
+<p>現在の設定では、JavaScriptを利用できません。有効にしてお使いくださいませ。</p>
+</noscript>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-73765160-1', 'auto');
+  ga('send', 'pageview');
+    </script>
+<title>Dancer2 by Perl5</title>
+</head>
+<body background='images/personal.gif'>
+<center>
+  <img src='images/kanbanlogo.gif'>
+</center>
+<center>
+  <h3>
+    <p><font color='#0000ff'> ～ 作業中、まだ何になるかわかりません ～ </font></p>
+  </h3>
+</center>
+<center>
+  <img src='images/pronama.gif'>
+  <table border='0'>
+
+      <td align='center'><center>
+          <h3><font color='#0000ff'>
+
+            </font></h3>
+        </center></td>
+    </tr>
+    <tr>
+      <div class='subpage'>
+        <td align='center'><center>
+            <h3>
+
+            </h3>
+          </center></td>
+      </div>
+    </tr>
+  </table>
+</center>
+</body>
+<br>
+<center>
+  <h3>
+    <p><font color='#000080'>after function add, message future branches. </font></p>
+  </h3>
+</center>
+<br>
+<center>
+  <h4>
+
+    <font color='#000080'><div id="RealtimeClockArea2"></div></font>
+  </h4>
+</center>
+<br>
+<center>
+  <h4>
+
+  </h4>
+</center>
+<center>
+  <h5>
+
+  </h5>
+</center>
+<center>
+  <h5>
+
+  </h5>
+</center>
+<br>
+<center>
+  <a href='https://www.heroku.com/'><img src='images/workmachine.gif'></a><a href='https://www.ruby-lang.org/ja/'><img src='images/ruby.gif'></a><a href='http://www.sinatrarb.com/'><img src='images/sinatra.gif'></a>
+</center>
+<script type="text/javascript">
+function searchWord (word) {
+    if(!document.getElementsByTagName) return;
+    if(!word) return;
+    var arrayA = document.getElementsByTagName("a");
+    for(i = 0; i < arrayA.length; i++) {
+        if(arrayA[i].innerHTML.match(word)) {
+            if(arrayA[i].scrollIntoView)
+                arrayA[i].scrollIntoView();
+            arrayA[i].focus();
+            return;
+        }
+    }
+    alert("見つかりませんでした。");
+}
+</script>
+<div align = 'right'>
+<form action="views/layout.erb" lang="ja"
+  onsubmit="searchWord(this.elements['word'].value);
+            return false;">
+<input type="text" name="word" value=""><input type="submit" value="検索"><br>
+</div>
+<center>
+  <h5>
+
+  </h5>
+</center>
+</html>
