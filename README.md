@@ -9,3 +9,5 @@
 これから、開発を進めていきます。
 
 ※ ライセンスは決めません。使えないということです。
+
+![百人一首](https://github.com/takkii/Genshi/blob/master/picture/image.gif)
